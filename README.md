@@ -8,6 +8,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Snapshot.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
 
+
 /// @custom:security-contact pp@opticalrectenna.com
 contract SOLARToken is ERC20, ERC20Burnable, ERC20Snapshot. Ownable, Pausable {
   constructor() ERC20("SOLARToken", "SOLAR") {
